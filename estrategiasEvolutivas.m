@@ -8,9 +8,10 @@ xu=[5 5]';
 D=2;
 N=50;
 sigma=1;
+%x=[3 3]';
 
 x=xl + (xu-xl).*rand(D,1);
-x=[3 3]';
+
 
 for i=1:N
  r = normrnd(0,sigma,[D 1]);

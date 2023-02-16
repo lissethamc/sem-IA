@@ -2,7 +2,7 @@ clear
 close all
 clc
 
-f=@(x,y) (x-2).^2+(y-2).^2;
+f=@(x,y) x.*exp(-x.^2-y.^2); %funcion objetivo
 xl=[-5 5]';
 xu=[5 5]';
 D=2;
