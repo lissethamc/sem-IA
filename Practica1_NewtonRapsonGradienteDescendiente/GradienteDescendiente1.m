@@ -17,6 +17,7 @@ end
 
 
 
+
 x_lim = linspace(-5,5,50); % límites para eje x, -5 es inferior, 5 es superior, con 50 puntos
 y_lim = linspace(-5,5,50); % límites para eje y, -5 es inferior, 5 es superior, con 50 puntos
 
@@ -44,7 +45,6 @@ grid on
 contour(x,y,z,20) % plot de la rejilla en 2D
 plot(xi(1,1),xi(2,1),'r*','LineWidth',2,'MarkerSize',10) % plot de un punto cualqueira en 2D
 legend({'función','óptimo'},'FontSize',15)
-
 title('Gradiente Descendiente 1','FontSize',15)
 xlabel('x','FontSize',15)
 ylabel('y','FontSize',15)
